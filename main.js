@@ -4,6 +4,8 @@ function setup(){
 let x = 20
 function draw (){
   background (100,0,200);
+  noStroke();
+  fill (255);
   while (x < width){
     circle (x,100,30);
     x+=40
